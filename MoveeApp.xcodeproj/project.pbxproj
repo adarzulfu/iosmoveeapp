@@ -14,6 +14,8 @@
 		D4A2D10B2467368600B62BF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A2D10A2467368600B62BF6 /* Preview Assets.xcassets */; };
 		D4A2D10E2467368600B62BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A2D10C2467368600B62BF6 /* LaunchScreen.storyboard */; };
 		D4BA1F24246828EC00505B4D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BA1F23246828EC00505B4D /* SplashView.swift */; };
+		D4BA1F262468326700505B4D /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BA1F252468326700505B4D /* MovieList.swift */; };
+		D4BA1F2824683AFD00505B4D /* MovieCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BA1F2724683AFD00505B4D /* MovieCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D4A2D10D2467368600B62BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4A2D10F2467368600B62BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4BA1F23246828EC00505B4D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		D4BA1F252468326700505B4D /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
+		D4BA1F2724683AFD00505B4D /* MovieCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				D4A2D10F2467368600B62BF6 /* Info.plist */,
 				D4A2D1092467368600B62BF6 /* Preview Content */,
 				D4BA1F23246828EC00505B4D /* SplashView.swift */,
+				D4BA1F252468326700505B4D /* MovieList.swift */,
+				D4BA1F2724683AFD00505B4D /* MovieCard.swift */,
 			);
 			path = MoveeApp;
 			sourceTree = "<group>";
@@ -151,7 +157,9 @@
 			files = (
 				D4A2D1022467368400B62BF6 /* AppDelegate.swift in Sources */,
 				D4BA1F24246828EC00505B4D /* SplashView.swift in Sources */,
+				D4BA1F2824683AFD00505B4D /* MovieCard.swift in Sources */,
 				D4A2D1042467368400B62BF6 /* SceneDelegate.swift in Sources */,
+				D4BA1F262468326700505B4D /* MovieList.swift in Sources */,
 				D4A2D1062467368400B62BF6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
