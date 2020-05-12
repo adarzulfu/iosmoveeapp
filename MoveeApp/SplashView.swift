@@ -10,16 +10,20 @@ import SwiftUI
 
 struct SplashView: View {
     var body: some View {
-        VStack{
-            Spacer()
-            Image("splash-popcorn")
-            Spacer()
-            Text("We ♥ movie")
-                .foregroundColor(Color.white)
-            .padding()
+        NavigationView{
+            VStack{
+                Spacer()
+                NavigationLink(destination: MovieList()){
+                    Image("splash-popcorn")
+                }.buttonStyle(PlainButtonStyle()) 
+                Spacer()
+                Text("We ♥ movie")
+                    .foregroundColor(Color.white)
+                    .padding()
+                
+            }.background(Image("splash-background"))
             
-        }.background(Image("splash-background"))
-        
+        }
     }
 }
 
